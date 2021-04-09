@@ -1,0 +1,143 @@
+{
+  "method": "POST",
+  "path": "/",
+  "query": {},
+  "headers": {
+    "x-forwarded-for": "34.74.226.1",
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "host": "dc0a605aeff25f6cba8c3aad6c27517a.m.pipedream.net",
+    "x-amzn-trace-id": "Root=1-60704c2c-61e692440baf83fc25b5048c",
+    "content-length": "2780",
+    "content-type": "application/json",
+    "user-agent": "GitLab/13.11.0-pre",
+    "x-gitlab-event": "Confidential Issue Hook",
+    "x-gitlab-token": "abcd"
+  },
+  "bodyRaw": "{\"object_kind\":\"issue\",\"event_type\":\"confidential_issue\",\"user\":{\"id\":4979036,\"name\":\"jack1142\",\"username\":\"jack1142\",\"avatar_url\":\"https://secure.gravatar.com/avatar/54ea9138862624b3b3ca93dc17d9f19c?s=80\\u0026d=identicon\",\"email\":\"jakub.kuczys@gmail.com\"},\"project\":{\"id\":25738723,\"name\":\"My Awesome Project\",\"description\":\"\",\"web_url\":\"https://gitlab.com/jack1142/my-awesome-project\",\"avatar_url\":null,\"git_ssh_url\":\"git@gitlab.com:jack1142/my-awesome-project.git\",\"git_http_url\":\"https://gitlab.com/jack1142/my-awesome-project.git\",\"namespace\":\"jack1142\",\"visibility_level\":0,\"path_with_namespace\":\"jack1142/my-awesome-project\",\"default_branch\":\"master\",\"ci_config_path\":\"\",\"homepage\":\"https://gitlab.com/jack1142/my-awesome-project\",\"url\":\"git@gitlab.com:jack1142/my-awesome-project.git\",\"ssh_url\":\"git@gitlab.com:jack1142/my-awesome-project.git\",\"http_url\":\"https://gitlab.com/jack1142/my-awesome-project.git\"},\"object_attributes\":{\"author_id\":1257257,\"closed_at\":null,\"confidential\":true,\"created_at\":\"2021-04-09 12:41:52 UTC\",\"description\":\"Test 6\",\"discussion_locked\":null,\"due_date\":null,\"id\":84931329,\"iid\":6,\"last_edited_at\":null,\"last_edited_by_id\":null,\"milestone_id\":null,\"moved_to_id\":null,\"duplicated_to_id\":null,\"project_id\":25738723,\"relative_position\":3078,\"state_id\":1,\"time_estimate\":0,\"title\":\"Test 6\",\"updated_at\":\"2021-04-09 12:44:14 UTC\",\"updated_by_id\":4979036,\"weight\":null,\"url\":\"https://gitlab.com/jack1142/my-awesome-project/-/issues/6\",\"total_time_spent\":0,\"human_total_time_spent\":null,\"human_time_estimate\":null,\"assignee_ids\":[4979036],\"assignee_id\":4979036,\"labels\":[{\"id\":19493112,\"title\":\"Red-DiscordBot\",\"color\":\"#ff0000\",\"project_id\":25738723,\"created_at\":\"2021-04-09 12:44:25 UTC\",\"updated_at\":\"2021-04-09 12:44:25 UTC\",\"template\":false,\"description\":null,\"type\":\"ProjectLabel\",\"group_id\":null}],\"state\":\"opened\",\"action\":\"update\"},\"labels\":[{\"id\":19493112,\"title\":\"Red-DiscordBot\",\"color\":\"#ff0000\",\"project_id\":25738723,\"created_at\":\"2021-04-09 12:44:25 UTC\",\"updated_at\":\"2021-04-09 12:44:25 UTC\",\"template\":false,\"description\":null,\"type\":\"ProjectLabel\",\"group_id\":null}],\"changes\":{\"labels\":{\"previous\":[],\"current\":[{\"id\":19493112,\"title\":\"Red-DiscordBot\",\"color\":\"#ff0000\",\"project_id\":25738723,\"created_at\":\"2021-04-09 12:44:25 UTC\",\"updated_at\":\"2021-04-09 12:44:25 UTC\",\"template\":false,\"description\":null,\"type\":\"ProjectLabel\",\"group_id\":null}]}},\"repository\":{\"name\":\"My Awesome Project\",\"url\":\"git@gitlab.com:jack1142/my-awesome-project.git\",\"description\":\"\",\"homepage\":\"https://gitlab.com/jack1142/my-awesome-project\"},\"assignees\":[{\"id\":4979036,\"name\":\"jack1142\",\"username\":\"jack1142\",\"avatar_url\":\"https://secure.gravatar.com/avatar/54ea9138862624b3b3ca93dc17d9f19c?s=80\\u0026d=identicon\",\"email\":\"jakub.kuczys@gmail.com\"}]}",
+  "body": {
+    "object_kind": "issue",
+    "event_type": "confidential_issue",
+    "user": {
+      "id": 4979036,
+      "name": "jack1142",
+      "username": "jack1142",
+      "avatar_url": "https://secure.gravatar.com/avatar/54ea9138862624b3b3ca93dc17d9f19c?s=80&d=identicon",
+      "email": "jakub.kuczys@gmail.com"
+    },
+    "project": {
+      "id": 25738723,
+      "name": "My Awesome Project",
+      "description": "",
+      "web_url": "https://gitlab.com/jack1142/my-awesome-project",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:jack1142/my-awesome-project.git",
+      "git_http_url": "https://gitlab.com/jack1142/my-awesome-project.git",
+      "namespace": "jack1142",
+      "visibility_level": 0,
+      "path_with_namespace": "jack1142/my-awesome-project",
+      "default_branch": "master",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/jack1142/my-awesome-project",
+      "url": "git@gitlab.com:jack1142/my-awesome-project.git",
+      "ssh_url": "git@gitlab.com:jack1142/my-awesome-project.git",
+      "http_url": "https://gitlab.com/jack1142/my-awesome-project.git"
+    },
+    "object_attributes": {
+      "author_id": 1257257,
+      "closed_at": null,
+      "confidential": true,
+      "created_at": "2021-04-09 12:41:52 UTC",
+      "description": "Test 6",
+      "discussion_locked": null,
+      "due_date": null,
+      "id": 84931329,
+      "iid": 6,
+      "last_edited_at": null,
+      "last_edited_by_id": null,
+      "milestone_id": null,
+      "moved_to_id": null,
+      "duplicated_to_id": null,
+      "project_id": 25738723,
+      "relative_position": 3078,
+      "state_id": 1,
+      "time_estimate": 0,
+      "title": "Test 6",
+      "updated_at": "2021-04-09 12:44:14 UTC",
+      "updated_by_id": 4979036,
+      "weight": null,
+      "url": "https://gitlab.com/jack1142/my-awesome-project/-/issues/6",
+      "total_time_spent": 0,
+      "human_total_time_spent": null,
+      "human_time_estimate": null,
+      "assignee_ids": [
+        4979036
+      ],
+      "assignee_id": 4979036,
+      "labels": [
+        {
+          "id": 19493112,
+          "title": "Red-DiscordBot",
+          "color": "#ff0000",
+          "project_id": 25738723,
+          "created_at": "2021-04-09 12:44:25 UTC",
+          "updated_at": "2021-04-09 12:44:25 UTC",
+          "template": false,
+          "description": null,
+          "type": "ProjectLabel",
+          "group_id": null
+        }
+      ],
+      "state": "opened",
+      "action": "update"
+    },
+    "labels": [
+      {
+        "id": 19493112,
+        "title": "Red-DiscordBot",
+        "color": "#ff0000",
+        "project_id": 25738723,
+        "created_at": "2021-04-09 12:44:25 UTC",
+        "updated_at": "2021-04-09 12:44:25 UTC",
+        "template": false,
+        "description": null,
+        "type": "ProjectLabel",
+        "group_id": null
+      }
+    ],
+    "changes": {
+      "labels": {
+        "previous": [],
+        "current": [
+          {
+            "id": 19493112,
+            "title": "Red-DiscordBot",
+            "color": "#ff0000",
+            "project_id": 25738723,
+            "created_at": "2021-04-09 12:44:25 UTC",
+            "updated_at": "2021-04-09 12:44:25 UTC",
+            "template": false,
+            "description": null,
+            "type": "ProjectLabel",
+            "group_id": null
+          }
+        ]
+      }
+    },
+    "repository": {
+      "name": "My Awesome Project",
+      "url": "git@gitlab.com:jack1142/my-awesome-project.git",
+      "description": "",
+      "homepage": "https://gitlab.com/jack1142/my-awesome-project"
+    },
+    "assignees": [
+      {
+        "id": 4979036,
+        "name": "jack1142",
+        "username": "jack1142",
+        "avatar_url": "https://secure.gravatar.com/avatar/54ea9138862624b3b3ca93dc17d9f19c?s=80&d=identicon",
+        "email": "jakub.kuczys@gmail.com"
+      }
+    ]
+  }
+}
