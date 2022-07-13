@@ -1,3 +1,5 @@
+**⚠️ This repository exists for archival processes and only really contains boilerplate and example GitLab webhook requests, work on the project was halted before it even started.**
+
 # gitlab-service-desk-discord
 
 An integration with GitLab's Service Desk allowing to report new issues
